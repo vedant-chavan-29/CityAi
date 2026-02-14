@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig(({ mode }) => ({
   // ✅ local = "/"
   // ✅ production (GitHub Pages) = "/cityAi/"
-  base: mode === "production" ? "/cityAi/" : "/",
+  base: "/",
 
   server: {
     host: "::",
